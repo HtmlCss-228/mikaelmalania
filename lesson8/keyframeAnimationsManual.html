@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <style>
+            .square {
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                animation-name: squareMover;
+                animation-duration: 2s;
+                animation-timing-function: ease-in; 
+                animation-iteration-count: infinite;
+                animation-direction: alternate-reverse;
+                border-radius: 50%;
+                position: relative;
+            }
+
+            @keyframes squareMover {
+                0% {
+                    background-color: red;
+                    top: 0;
+                    left: 0;
+                }
+
+                25% {
+                    background-color: yellow;
+                    top: 0;
+                    left: 92.1%;
+                }
+
+                50% {
+                    background-color: green;
+                    top: 83%;
+                    left: 92.1%;
+                }
+
+                75% {
+                    background-color: blue;
+                    top: 83%;
+                    left: 0;
+                }
+
+                100% {
+                    background-color: red;
+                    top: 0;
+                    left: 0;
+                }
+
+            }
+
+            body {
+                margin: 0;
+            }
+            /* .box {
+                height: 200px;
+                width: 200px;
+                position: relative;
+                background: red;
+                text-transform: uppercase;
+                animation: squareMover 20s 4;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+            }
+            
+            h1 {
+                color: black;
+                font: italic 5em sans-serif;
+                letter-spacing: -10px;
+                font-weight: 900;
+                margin: 0 20px;
+                padding-top: 30px;
+            
+            }
+            
+            p {
+                color: white;
+                font: 2em sans-serif;
+                font-weight: 900;
+                margin: 0 45px;
+            }
+            */
+        </style>
+    </head>
+
+    <body>
+        <div class="square">
+
+        </div>
+
+        <!-- <div class="box">
+            <h1>dvd</h1>
+            <p>video</p>
+        </div> -->
+    
+    </body>
+</html>
