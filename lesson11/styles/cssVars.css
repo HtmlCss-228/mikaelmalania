@@ -1,0 +1,15 @@
+:root {
+    --feri: #ff8800;
+}
+
+#text1 {
+    color: var(--feri);
+}
+
+#text2 {
+    color: var(--feri);
+}
+
+#text3 {
+    color: var(--feri);
+}
